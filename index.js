@@ -59,7 +59,7 @@ module.exports = {
     let absoluteFontsPath = path.join(faPath, 'webfonts');
 
     // Import CSS directly
-    let files = this.fontAwesomeCssConfig.cssFiles || ['fontawesome', 'solid', 'regular'];
+    let files = this.fontAwesomeCssConfig.cssFiles || ['fontawesome', 'solid', 'regular', 'brands'];
     files.forEach((file) => {
       target.import( { development: path.join(cssPath, file+'.css'), production: path.join(cssPath, file+'.min.css') } );
     });
