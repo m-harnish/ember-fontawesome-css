@@ -58,7 +58,7 @@ and don't want them to be included with this add-on.
 * `cssFiles` - A list of CSS files to include from Font Awesome in your build.
 If they change the file names (or you don't need the regular fonts, for example), 
 you can specify this.
-  * Default: ['fontawesome', 'solid', 'regular'])
+  * Default: ['fontawesome', 'solid', 'regular', 'brands'])
 * `fontFormats` - A list of font files to include in your build.
   * Default: ['eot', 'svg', 'ttf', 'woff', 'woff2', 'otf']
   
