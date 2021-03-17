@@ -1,6 +1,6 @@
 {
   "name": "ember-fontawesome-css",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Quick and dirty Font Awesome 5+ CSS Ember add-on",
   "keywords": [
     "ember-addon"
